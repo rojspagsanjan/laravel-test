@@ -13,6 +13,7 @@
 
 <body class="antialiased">
    <div id="app">
+    <!-- test -->
    </div>
    @vite('resources/js/app.js')
 </body>
