@@ -5,7 +5,7 @@ use App\Http\Controllers\RecordController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\WelcomeController;
-
+// test
 
 Route::get('/login', [LoginController::class, 'index'])->name('login')->middleware('guest');
 Route::get('/register', [RegisterController::class, 'index'])->name('register');
